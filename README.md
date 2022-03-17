@@ -1,2 +1,2 @@
-# Deilivry-app-java-
-this this a fast food resturant deilivry's app developen by some students
+# Delivery-app-java-
+ A front end Android app for the d-delivery project
