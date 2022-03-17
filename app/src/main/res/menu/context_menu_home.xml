@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_floating_menu_first"
+        android:title="First Floating menu option"
+        ></item>
+    <item
+        android:id="@+id/home_floating_menu_second"
+        android:title="Second Floating menu option"
+        ></item>
+    <item
+        android:id="@+id/home_floating_menu_third"
+        android:title="Third Floating menu option"
+        ></item>
+</menu>

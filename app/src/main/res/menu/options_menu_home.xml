@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--TODO put icons for the itme-->
+
+    <!-- in every menu there is item which also may have inner menu-->
+    <!-- the first item shows the basic attributes-->
+    <item
+        android:id="@+id/home_menu_search"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"
+        ></item>
+
+    <item
+        android:id="@+id/home_menu_more"
+        android:title="More"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/home_menu_more_settings"
+                android:title="Setting"
+                app:showAsAction="ifRoom"
+                ></item>
+
+            <item
+                android:id="@+id/home_menu_more_help"
+                android:title="Help"
+                app:showAsAction="ifRoom"
+                ></item>
+
+            <item
+                android:id="@+id/home_menu_more_advanced"
+                android:title="Advanced"
+                app:showAsAction="ifRoom">
+                <menu>
+                    <item
+                        android:id="@+id/home_menu_more_advanced_1"
+                        android:title="Nothing"
+                        app:showAsAction="ifRoom">
+                        ></item>
+                    <item
+                        android:id="@+id/home_menu_more_advanced_2"
+                        android:title="Nothing"
+                        app:showAsAction="ifRoom">
+                        ></item>
+                </menu>
+            </item>
+        </menu>
+    </item>
+
+
+</menu>
